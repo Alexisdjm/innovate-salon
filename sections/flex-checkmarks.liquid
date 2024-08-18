@@ -6,6 +6,16 @@
         {% if section.settings.content == "WITCF" %}
           <div 
             class="flex-checkmarks--element element-content-adjust">
+            <div 
+            class="flex-checkmarks--element 
+            flex-checkmarks--wallpaper-box
+            {% if section.settings.align == "left" %}show-left--image{% else %}dont-show--left{% endif %}">
+              <img 
+              src="{{ product.metafields.custom.who_is_this_course_for_image | img_url: "master" }}" 
+              alt="wallpaper" 
+              loading="lazy" 
+              class="flex-checkmarks--wallpaper">
+            </div>
             <div class="flex-checkmarks--box-{{ section.settings.content_width }} element-flex">
               <h3 
               style="color: {{ section.settings.font_color }}">
@@ -22,7 +32,10 @@
               {% endfor %}          
             </div>
           </div>
-          <div class="flex-checkmarks--element flex-checkmarks--wallpaper-box">
+          <div 
+          class="flex-checkmarks--element 
+          flex-checkmarks--wallpaper-box
+          {% if section.settings.align == "right" %}show-right--image{% else %}dont-show--right{% endif %}">
             <img 
             src="{{ product.metafields.custom.who_is_this_course_for_image | img_url: "master" }}" 
             alt="wallpaper" 
@@ -32,6 +45,16 @@
         {% else %}
           <div 
             class="flex-checkmarks--element element-content-adjust">
+            <div 
+            class="flex-checkmarks--element 
+            flex-checkmarks--wallpaper-box
+            {% if section.settings.align == "left" %}show-left--image{% else %}dont-show--left{% endif %}">
+              <img 
+              src="{{ product.metafields.custom.why_choose_us_image | img_url: "master" }}" 
+              alt="wallpaper" 
+              loading="lazy" 
+              class="flex-checkmarks--wallpaper">
+            </div>
             <div class="flex-checkmarks--box-{{ section.settings.content_width }} element-flex">
               <h3 
               style="color: {{ section.settings.font_color }}">
@@ -48,7 +71,10 @@
               {% endfor %}          
             </div>
           </div>
-          <div class="flex-checkmarks--element flex-checkmarks--wallpaper-box">
+          <div 
+          class="flex-checkmarks--element 
+          flex-checkmarks--wallpaper-box
+          {% if section.settings.align == "right" %}show-right--image{% else %}dont-show--right{% endif %}">
             <img 
             src="{{ product.metafields.custom.why_choose_us_image | img_url: "master" }}" 
             alt="wallpaper" 

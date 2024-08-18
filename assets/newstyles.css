@@ -71,3 +71,11 @@
 .flex-checkmarks--box-45 {
   max-width: 45vw;
 }
+
+.show-left--image, .show-right--image {
+  display: block
+}
+
+.dont-show--left, .dont-show--right {
+  display: none
+}
