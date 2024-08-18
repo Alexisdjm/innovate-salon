@@ -14,6 +14,11 @@
   width: 50%;
 }
 
+.flex-checkmarks--wallpaper {
+  width: 100%;
+  height: 100%;
+}
+
 .flex-checkmarks--wallpaper-box {
   position: relative;
   overflow: hidden;
