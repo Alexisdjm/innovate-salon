@@ -166,8 +166,31 @@
         "padding_bottom": 36
       }
     },
+    "flex_checkmarks_jn8nWA": {
+      "type": "flex-checkmarks",
+      "settings": {
+        "colorBG": "#faf4ff",
+        "font_color": "#502c79",
+        "content_font_color": "#502c79",
+        "content": "WITCF",
+        "align": "right",
+        "content_width": 45
+      }
+    },
+    "flex_checkmarks_aHEMHa": {
+      "type": "flex-checkmarks",
+      "settings": {
+        "colorBG": "#fff",
+        "font_color": "#000",
+        "content_font_color": "#000",
+        "content": "WCU",
+        "align": "right",
+        "content_width": 35
+      }
+    },
     "rich_text_DFTdpx": {
       "type": "rich-text",
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -208,6 +231,7 @@
         "text_Un34Kf",
         "button_czhBaR"
       ],
+      "disabled": true,
       "settings": {
         "image": "{{ product.metafields.custom.who_is_this_course_for_image.value }}",
         "height": "adapt",
@@ -324,6 +348,7 @@
         "text_Np8838",
         "button_xiRkfY"
       ],
+      "disabled": true,
       "settings": {
         "image": "{{ product.metafields.custom.why_choose_us_image.value }}",
         "height": "adapt",
@@ -690,23 +715,14 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
-    },
-    "flex_checkmarks_jn8nWA": {
-      "type": "flex-checkmarks",
-      "settings": {
-        "colorBG": "#faf4ff",
-        "font_color": "#502c79",
-        "content_font_color": "#502c79",
-        "content": "WITCF",
-        "align": "right",
-        "content_width": 40
-      }
     }
   },
   "order": [
     "main",
     "rich_text_PG3HR8",
     "multicolumn_YT7QWq",
+    "flex_checkmarks_jn8nWA",
+    "flex_checkmarks_aHEMHa",
     "rich_text_DFTdpx",
     "image_with_text_DyEgBB",
     "image_banner_W4N86M",
@@ -722,7 +738,6 @@
     "rich_text_Kw9K3W",
     "video_mmfRTG",
     "featured_collection_CMNwpC",
-    "related-products",
-    "flex_checkmarks_jn8nWA"
+    "related-products"
   ]
 }
