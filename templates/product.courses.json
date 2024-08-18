@@ -177,6 +177,17 @@
         "content_width": 45
       }
     },
+    "flex_checkmarks_aHEMHa": {
+      "type": "flex-checkmarks",
+      "settings": {
+        "colorBG": "#fff",
+        "font_color": "#000",
+        "content_font_color": "#000",
+        "content": "WCU",
+        "align": "right",
+        "content_width": 35
+      }
+    },
     "rich_text_DFTdpx": {
       "type": "rich-text",
       "disabled": true,
@@ -704,17 +715,6 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
-    },
-    "flex_checkmarks_aHEMHa": {
-      "type": "flex-checkmarks",
-      "settings": {
-        "colorBG": "#fff",
-        "font_color": "#000",
-        "content_font_color": "#000",
-        "content": "WCU",
-        "align": "right",
-        "content_width": 35
-      }
     }
   },
   "order": [
@@ -722,6 +722,7 @@
     "rich_text_PG3HR8",
     "multicolumn_YT7QWq",
     "flex_checkmarks_jn8nWA",
+    "flex_checkmarks_aHEMHa",
     "rich_text_DFTdpx",
     "image_with_text_DyEgBB",
     "image_banner_W4N86M",
@@ -737,7 +738,6 @@
     "rich_text_Kw9K3W",
     "video_mmfRTG",
     "featured_collection_CMNwpC",
-    "related-products",
-    "flex_checkmarks_aHEMHa"
+    "related-products"
   ]
 }
