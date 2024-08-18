@@ -79,3 +79,7 @@
 .dont-show--left, .dont-show--right {
   display: none
 }
+
+.svg-checkmark--container {
+  min-width: 28px;
+}
