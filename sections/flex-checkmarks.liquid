@@ -4,17 +4,18 @@
       class="flex-checkmarks--son" 
       style="background-color: {{ section.settings.colorBG }};">
       <div 
-        class="flex-checkmarks--element element-margin
-        flex-checkmarks--box-{{ section.settings.content_width }}">
-        <h3 
-        style="color: {{ section.settings.font_color }}">
-        {{ product.metafields.custom.why_choose_us_headline }}</h3>
-        {% for i in product.metafields.custom.witcf_list.value %}
-          <div class="flex-checkmarks--e-child">
-            {% render 'checkmark' %}
-            <p style="color: {{ section.settings.font_color }}">{{ i }}</p>
-          </div>
-        {% endfor %}
+        class="flex-checkmarks--element element-margin">
+        <div class="flex-checkmarks--box-{{ section.settings.content_width }}">
+          <h3 
+          style="color: {{ section.settings.font_color }}">
+          {{ product.metafields.custom.why_choose_us_headline }}</h3>
+          {% for i in product.metafields.custom.witcf_list.value %}
+            <div class="flex-checkmarks--e-child">
+              {% render 'checkmark' %}
+              <p style="color: {{ section.settings.font_color }}">{{ i }}</p>
+            </div>
+          {% endfor %}          
+        </div>
         {% comment %} {% if section.settings.content == "WCU" %}
         {% else %}
         {% endif %} {% endcomment %}
