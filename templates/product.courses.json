@@ -698,8 +698,8 @@
         "font_color": "#502c79",
         "content_font_color": "#502c79",
         "content": "WITCF",
-        "align": "left",
-        "content_width": 40
+        "align": "right",
+        "content_width": 45
       }
     }
   },
