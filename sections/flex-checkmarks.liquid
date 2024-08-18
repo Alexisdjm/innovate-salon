@@ -46,7 +46,7 @@
         <div 
           class="flex-checkmarks--element 
           flex-checkmarks--wallpaper-box
-          if section.settings.align == "left" %}show-left--image{% else %}dont-show--left{% endif %}">
+          {% if section.settings.align == "left" %}show-left--image{% else %}dont-show--left{% endif %}">
             <img 
             src="{{ product.metafields.custom.why_choose_us_image | img_url: "master" }}" 
             alt="wallpaper" 
