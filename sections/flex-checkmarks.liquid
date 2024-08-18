@@ -13,7 +13,7 @@
             {% assign parts = i | split: ':' %}
             <div class="flex-checkmarks--e-child">
               {% render 'checkmark' %}
-              <p style="color: {{ section.settings.font_color }}">
+              <p style="color: {{ section.settings.content_font_color }}">
                 <span class="bold-text">{{ parts[0] }}</span>
                :{{ parts[1] }}
               </p>
@@ -51,6 +51,12 @@
         "id": "font_color",
         "default": "#000",
         "label": "Font color"
+      },
+      {
+        "type": "color",
+        "id": "content_font_color",
+        "default": "#000",
+        "label": "Content font color"
       },
       {
         "type": "select",
