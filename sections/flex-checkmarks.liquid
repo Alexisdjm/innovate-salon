@@ -15,7 +15,7 @@
               {% render 'checkmark' %}
               <p style="color: {{ section.settings.font_color }}">
                 <span class="bold-text">{{ words[0] }} {{ words[1] }}</span>
-                {{ i }}
+               {{ words | slice: 2, words.size | join: ' ' }}
               </p>
             </div>
           {% endfor %}          
