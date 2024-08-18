@@ -11,10 +11,12 @@
           {{ product.metafields.custom.why_choose_us_headline }}</h3>
           {% for i in product.metafields.custom.witcf_list.value %}
             {% assign words = i | split: ' ' %}
-            <p>{{ words[1] }}</p>
             <div class="flex-checkmarks--e-child">
               {% render 'checkmark' %}
-              <p style="color: {{ section.settings.font_color }}">{{ i }}</p>
+              <p style="color: {{ section.settings.font_color }}">
+                <span class="bold-text">{{ words[0] }} {{ words[1] }}</span>
+                {{ i }}
+              </p>
             </div>
           {% endfor %}          
         </div>
