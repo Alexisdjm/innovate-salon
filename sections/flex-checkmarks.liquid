@@ -43,7 +43,10 @@
             class="flex-checkmarks--wallpaper">
           </div>
         {% else %}
-          {% if section.settings.align == "left" %}show-left--image{% else %}dont-show--left{% endif %}">
+        <div 
+          class="flex-checkmarks--element 
+          flex-checkmarks--wallpaper-box
+          if section.settings.align == "left" %}show-left--image{% else %}dont-show--left{% endif %}">
             <img 
             src="{{ product.metafields.custom.why_choose_us_image | img_url: "master" }}" 
             alt="wallpaper" 
@@ -55,7 +58,7 @@
             <div 
             class="flex-checkmarks--element 
             flex-checkmarks--wallpaper-box
-            <div class="flex-checkmarks--box-{{ section.settings.content_width }} element-flex">
+            flex-checkmarks--box-{{ section.settings.content_width }} element-flex">
               <h3 
               style="color: {{ section.settings.font_color }}">
               {{ product.metafields.custom.why_choose_us_headline }}</h3>
