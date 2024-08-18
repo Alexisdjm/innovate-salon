@@ -694,8 +694,8 @@
     "flex_checkmarks_jn8nWA": {
       "type": "flex-checkmarks",
       "settings": {
-        "colorBG": "#fff",
-        "font_color": "#000",
+        "colorBG": "#faf4ff",
+        "font_color": "#000000",
         "content": "WCU",
         "align": "right",
         "content_width": 5
