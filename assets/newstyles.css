@@ -1,20 +1,21 @@
 .flex-checkmarks--father {
-    margin: 2.4em 0;
-    padding: 2em;
+  margin: 2.4em 0;
+  padding: 2em;
 }
 
 .flex-checkmarks--son {
-    gap: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  gap: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .flex-checkmarks--element {
-    width: 50%;
+  width: 50%;
 }
 
 .flex-checkmarks--wallpaper-box {
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
+  max-height: 
 }
