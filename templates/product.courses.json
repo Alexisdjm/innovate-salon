@@ -698,7 +698,7 @@
         "font_color": "#502c79",
         "content_font_color": "#502c79",
         "content": "WITCF",
-        "align": "right",
+        "align": "left",
         "content_width": 40
       }
     }
