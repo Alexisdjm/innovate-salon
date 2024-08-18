@@ -14,8 +14,10 @@
   width: 50%;
 }
 
-.element-margin {
-    margin: 2em;
+.element-content-adjust {
+  margin: 2em;
+  display: flex;
+  justify-content: center;
 }
 
 .flex-checkmarks--wallpaper {
@@ -32,8 +34,4 @@
 .flex-checkmarks--e-child {
     display: flex;
     gap: 0.75em;
-}
-
-.flex-checkmarks--e-child p, h1, h2, h3, h4, h5, h6 {
-    margin: 0;
 }
