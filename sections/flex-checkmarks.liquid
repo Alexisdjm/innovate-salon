@@ -10,12 +10,12 @@
           style="color: {{ section.settings.font_color }}">
           {{ product.metafields.custom.who_is_this_course_for_title }}</h3>
           {% for i in product.metafields.custom.witcf_list.value %}
-            {% assign words = i | split: ' ' %}
+            {% assign parts = i | split: ':' %}
             <div class="flex-checkmarks--e-child">
               {% render 'checkmark' %}
               <p style="color: {{ section.settings.font_color }}">
-                <span class="bold-text">{{ words[0] }} {{ words[1] }}</span>
-               {{ words | slice: 2, words.size | join: ' ' }}
+                <span class="bold-text">{{ parts[0] }}</span>
+               {{ parts[1] }}
               </p>
             </div>
           {% endfor %}          
