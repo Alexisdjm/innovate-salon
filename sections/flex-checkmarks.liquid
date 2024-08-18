@@ -1,22 +1,98 @@
-<div>
-  <div>
-    <div>
-      <div>
+<div class="flex-checkmarks--father">
+  <div class="flex-checkmarks--medium-father">
+    <div class="flex-checkmarks--son">
+      <div 
+      style="background-color: {{ section.settings.colorBG }};" 
+      class="flex-checkmarks--element 
+      flex-checkmarks--box-{{ section.settings.content_width }}">
+      <h3 
+      style="color: {{ section.settings.font_color }}">
+      {{ product.metafields.custom.why_choose_us_headline }}</h3>
+      {% for i in product.metafields.custom.WCU_list.value %}
+        <p>{{ forloop.index0 }}</p>
+      {% endfor %}
+        {% comment %} {% if section.settings.content == "WCU" %}
+        {% else %}
+        {% endif %} {% endcomment %}
+      </div>
+      <div class="flex-checkmarks--element flex-checkmarks--wallpaper-box">
+        <img 
+        src="" 
+        alt="wallpaper" 
+        loading="lazy" 
+        class="flex-checkmarks--wallpaper">
+      </div>
+      {% comment %} <div class="flex-checkmarks--element 
+      flex-checkmarks--box-{{ section.settings.content_width }}">
         
-      </div>
-      <div>
-        <img loading="lazy" alt="image" class="">
-      </div>
-      <div>
-        
-      </div>
+      </div> {% endcomment %}
     </div>
   </div>
 </div>
 
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Flex Checkmarks",
+    "class": "flex-checkmarks",
+    "settings": [
+      {
+        "type": "color",
+        "id": "colorBG",
+        "default": "#fff",
+        "label": "Background Color"
+      },
+      {
+        "type": "color",
+        "id": "font_color",
+        "default": "#000",
+        "label": "Font color"
+      },
+      {
+        "type": "select",
+        "id": "content",
+        "options": [
+          {
+            "label": "Why choose us?",
+            "value": "WCU"
+          },
+          {
+            "label": "Who is this course for?",
+            "value": "WITCF"
+          }
+        ],
+        "label": "Select content",
+        "default": "WCU"
+      },
+      {
+        "type": "select",
+        "id": "align",
+        "options": [
+          {
+            "label": "Image to the left",
+            "value": "left"
+          },
+          {
+            "label": "Image to the right",
+            "value": "right"
+          }
+        ],
+        "label": "Select Image Side",
+        "default": "right"
+      },
+      {
+        "type": "range",
+        "id": "content_width",
+        "max": 10,
+        "min": 1,
+        "step": 1,
+        "default": 5,
+        "label": "Content box width"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Flex Checkmarks"
+      }
+    ]
   }
 {% endschema %}
