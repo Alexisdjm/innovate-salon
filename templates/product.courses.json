@@ -92,17 +92,6 @@
         "padding_bottom": 12
       }
     },
-    "rich_text_PG3HR8": {
-      "type": "rich-text",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 80,
-        "padding_bottom": 80
-      }
-    },
     "multicolumn_YT7QWq": {
       "type": "multicolumn",
       "blocks": {
@@ -186,18 +175,6 @@
         "content": "WCU",
         "align": "left",
         "content_width": 35
-      }
-    },
-    "rich_text_DFTdpx": {
-      "type": "rich-text",
-      "disabled": true,
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 80,
-        "padding_bottom": 80
       }
     },
     "image_with_text_DyEgBB": {
@@ -317,6 +294,20 @@
         "padding_bottom": 100
       }
     },
+    "flex_video_aA98Hn": {
+      "type": "flex-video",
+      "settings": {
+        "heading": "The Academy",
+        "content": "<p><strong>Established Legacy:<\/strong> Founded in 2000, Innovate Salon Academy boasts a rich history of excellence.<\/p><p><strong>Proven Success:<\/strong> Thousands of graduates have launched successful careers in the beauty industry.<\/p><p><strong>Industry-Recognized:<\/strong> Our programs are aligned with industry standards and trends.<\/p>",
+        "colorBG": "#ffffff",
+        "font_color": "#000000",
+        "content_font_color": "#000000",
+        "video": "shopify:\/\/files\/videos\/Innovate Q&A (July 2019) updated (1).mp4",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "align": "right",
+        "content_width": 40
+      }
+    },
     "image_with_text_8L4i3J": {
       "type": "image-with-text",
       "blocks": {
@@ -384,6 +375,7 @@
     },
     "video_eHqJB9": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -395,20 +387,6 @@
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 36
-      }
-    },
-    "flex_video_aA98Hn": {
-      "type": "flex-video",
-      "settings": {
-        "heading": "The Academy",
-        "content": "<p><strong>Established Legacy:<\/strong> Founded in 2000, Innovate Salon Academy boasts a rich history of excellence.<\/p><p><strong>Proven Success:<\/strong> Thousands of graduates have launched successful careers in the beauty industry.<\/p><p><strong>Industry-Recognized:<\/strong> Our programs are aligned with industry standards and trends.<\/p>",
-        "colorBG": "#ffffff",
-        "font_color": "#000000",
-        "content_font_color": "#000000",
-        "video": "shopify:\/\/files\/videos\/Inn Makeup.mp4",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "align": "right",
-        "content_width": 40
       }
     },
     "multicolumn_UdNLJe": {
@@ -655,6 +633,20 @@
         "padding_bottom": 36
       }
     },
+    "flex_video_rG6Ak3": {
+      "type": "flex-video",
+      "settings": {
+        "heading": "Learn Eyelash Extension in a Supportive Environment",
+        "content": "<p>Experience firsthand the dynamic learning atmosphere at our school. Discover the hands-on experience that sets us apart.<\/p>",
+        "colorBG": "#fff",
+        "font_color": "#000",
+        "content_font_color": "#000",
+        "video": "shopify:\/\/files\/videos\/Inn Makeup.mp4",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "align": "right",
+        "content_width": 35
+      }
+    },
     "featured_collection_CMNwpC": {
       "type": "featured-collection",
       "settings": {
@@ -705,24 +697,23 @@
   },
   "order": [
     "main",
-    "rich_text_PG3HR8",
     "multicolumn_YT7QWq",
     "flex_checkmarks_jn8nWA",
     "flex_checkmarks_aHEMHa",
-    "rich_text_DFTdpx",
     "image_with_text_DyEgBB",
     "image_banner_W4N86M",
     "collapsible_content_9LFQXd",
+    "flex_video_aA98Hn",
     "image_with_text_8L4i3J",
     "image_banner_wGm6W7",
     "video_eHqJB9",
-    "flex_video_aA98Hn",
     "multicolumn_UdNLJe",
     "rich_text_geyTBz",
     "multirow_FFqaBM",
     "multicolumn_FqATci",
     "rich_text_Kw9K3W",
     "video_mmfRTG",
+    "flex_video_rG6Ak3",
     "featured_collection_CMNwpC",
     "related-products"
   ]
