@@ -126,6 +126,11 @@
 }
 
 @media only screen and (min-width: 901px) and (max-width: 1023px) {
-  
+  .flex-checkmarks--box-30,
+  .flex-checkmarks--box-35,
+  .flex-checkmarks--box-40,
+  .flex-checkmarks--box-45 {
+    max-width: fit-content;
+  }
 }
 
