@@ -110,7 +110,7 @@
 }
 
 @media only screen and (max-width: 900px) {
-  .flex-checkmarks--son {
+  .flex-checkmarks--son, .flex-video--father {
     flex-direction: column;
   }
 
