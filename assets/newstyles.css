@@ -103,7 +103,7 @@
     flex-direction: column;
   }
 
-  .flex-checkmarks--element {
+  .flex-checkmarks--element.element-content-adjust {
     width: 100%;
     padding: 0 2em 0 1em;
   }
