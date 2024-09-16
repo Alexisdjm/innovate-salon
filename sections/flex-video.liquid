@@ -18,6 +18,31 @@
         "default": "<p>Content<p>",
         "label": "Content"
       },
+      {
+        "type": "select",
+        "id": "align",
+        "options": [
+          {
+            "label": "Video to the left",
+            "value": "left"
+          },
+          {
+            "label": "Video to the right",
+            "value": "right"
+          }
+        ],
+        "label": "Select Video Side",
+        "default": "right"
+      },
+      {
+        "type": "range",
+        "id": "content_width",
+        "max": 45,
+        "min": 30,
+        "step": 5,
+        "default": 35,
+        "label": "Content box width"
+      }
     ]
   }
 {% endschema %}
