@@ -1,1 +1,23 @@
-
+{% schema %}
+  {
+    "name": "Flex video",
+    "class": "flex-vide--section",
+    "disabled_on": {
+    "groups": ["header", "footer"]
+    },
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading",
+        "default": "Heading",
+        "label": "Heading"
+      },
+      {
+        "type": "richtext",
+        "id": "content",
+        "default": "<p>Content<p>",
+        "label": "Content"
+      },
+    ]
+  }
+{% endschema %}
