@@ -3,11 +3,13 @@
 }
 
 deferred-media {
+  aspect-ratio: 2.25/1
   height: 340px;
 }
 
 video {
-  max-height: 340px
+  aspect-ratio: 2.25/1
+  max-height: 340px;
 }
 
 .flex-checkmarks--father {
