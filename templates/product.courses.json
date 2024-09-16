@@ -721,6 +721,9 @@
       "settings": {
         "heading": "Heading",
         "content": "<p><strong>Established Legacy:<\/strong> Founded in 2000, Innovate Salon Academy boasts a rich history of excellence.<\/p><p><strong>Proven Success:<\/strong> Thousands of graduates have launched successful careers in the beauty industry.<\/p><p><strong>Industry-Recognized:<\/strong> Our programs are aligned with industry standards and trends.<\/p>",
+        "colorBG": "#ffffff",
+        "font_color": "#000",
+        "content_font_color": "#000",
         "video": "shopify:\/\/files\/videos\/Innovate Q&A (July 2019) updated (1).mp4",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "align": "right",
