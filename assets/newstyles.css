@@ -124,6 +124,10 @@ video {
     flex-direction: column;
   }
 
+  video {
+    width: 100%;
+  }
+
   .flex-video--father {
     grid-template-columns: 100%;
   }
