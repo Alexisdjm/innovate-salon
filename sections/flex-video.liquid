@@ -14,6 +14,20 @@
   {%- endif %}
 {%- endcapture -%}
 
+<style>
+  .element-content-adjust {
+    background-color: {{ section.settings.colorBG }}
+  }
+
+  .element-flex p {
+    color: {{ section.settings.content_font_color }}
+  }
+
+  .element-flex h3 {
+    color: {{ section.settings.font_color }}
+  }
+</style>
+
 <div class="flex-video--father">
   <div 
     class="element-content-adjust">
