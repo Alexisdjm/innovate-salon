@@ -91,6 +91,10 @@
   grid-template-columns: 50% 50%;
 }
 
+.element-flex p {
+  margin: 0;
+}
+
 /* ---------------------------------------- media queries ------------------------------------------ */
 
 @media only screen and (max-width: 463px) {
