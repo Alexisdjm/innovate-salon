@@ -15,15 +15,17 @@
 {%- endcapture -%}
 
 <style>
-  .element-content-adjust {
-    background-color: {{ section.settings.colorBG }}
+  .flex-video--father .element-content-adjust {
+    background-color: {{ section.settings.colorBG }};
+    margin: 0;
+    padding: 2em;
   }
 
-  .element-flex p {
+  .flex-video--father .element-content-adjust .element-flex p {
     color: {{ section.settings.content_font_color }}
   }
 
-  .element-flex h3 {
+  .flex-video--father .element-content-adjust .element-flex h3 {
     color: {{ section.settings.font_color }}
   }
 </style>
