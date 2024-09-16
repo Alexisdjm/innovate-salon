@@ -120,8 +120,12 @@ video {
 }
 
 @media only screen and (max-width: 900px) {
-  .flex-checkmarks--son, .flex-video--father {
+  .flex-checkmarks--son {
     flex-direction: column;
+  }
+
+  .flex-video--father {
+    grid-template-columns: 100%;
   }
 
   .flex-checkmarks--element.element-content-adjust {
