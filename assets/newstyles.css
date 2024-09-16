@@ -2,6 +2,10 @@
   font-weight: bold;
 }
 
+deferred-media {
+  height: 340px;
+}
+
 video {
   max-height: 340px
 }
