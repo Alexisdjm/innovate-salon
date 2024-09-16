@@ -687,21 +687,6 @@
         "padding_bottom": 36
       }
     },
-    "flex_video_46W6hU": {
-      "type": "flex-video",
-      "disabled": true,
-      "settings": {
-        "heading": "Learn Eyelash Extension in a Supportive Environment",
-        "content": "<p>Experience firsthand the dynamic learning atmosphere at our school. Discover the hands-on experience that sets us apart.<\/p>",
-        "colorBG": "#ffffff",
-        "font_color": "#000000",
-        "content_font_color": "#000000",
-        "video": "shopify:\/\/files\/videos\/Inn Makeup.mp4",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "align": "left",
-        "content_width": 40
-      }
-    },
     "featured_collection_CMNwpC": {
       "type": "featured-collection",
       "settings": {
@@ -771,7 +756,6 @@
     "multicolumn_FqATci",
     "rich_text_Kw9K3W",
     "video_mmfRTG",
-    "flex_video_46W6hU",
     "featured_collection_CMNwpC",
     "related-products"
   ]
