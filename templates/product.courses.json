@@ -675,6 +675,7 @@
         "heading_GWRyng",
         "text_tJ88qU"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
@@ -686,6 +687,7 @@
     },
     "video_mmfRTG": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
