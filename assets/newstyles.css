@@ -102,6 +102,10 @@
   .flex-checkmarks--son {
     flex-direction: column;
   }
+
+  .flex-checkmarks--element {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 901px) and (max-width: 1023px) {
