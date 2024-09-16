@@ -8,7 +8,7 @@ deferred-media {
 }
 
 video {
-  aspect-ratio: 2.25/1
+  aspect-ratio: 2.25/1;
   max-height: 340px;
 }
 
