@@ -37,6 +37,7 @@
                   {%- for childlink in link.links -%}
                     <li>
                       <a
+                      {% if link.handle == "programs" %}target="_blank"{% endif %}
                         id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
                         href="{{ childlink.url }}"
                         class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"
