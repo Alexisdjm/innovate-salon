@@ -183,6 +183,7 @@
         "heading_3P9PYy",
         "text_bKP4qc"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
@@ -194,6 +195,7 @@
     },
     "video_e4Vzec": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
