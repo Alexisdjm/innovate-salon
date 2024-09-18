@@ -105,6 +105,14 @@ video {
   margin: 0;
 }
 
+/* ---------------------------------------- MERCH ICONS -------------------------------------------- */
+
+.media.media--transparent.media--adapt {
+  width: 50%;
+  height: 50%;
+  margin: 25%;
+}
+
 /* ---------------------------------------- media queries ------------------------------------------ */
 
 @media only screen and (max-width: 463px) {
